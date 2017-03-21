@@ -22,7 +22,7 @@ header{
             img{
                 width: 150px;
             }
-        @media (min-width: 550px) {
+        @media (min-width: 551px) {
             .logo_sp{
             display: none;
             }
@@ -30,6 +30,12 @@ header{
         @media (max-width: 550px) {
             .logo_pc{
                 display: none;
+            }
+            .logo_sp{
+                width: 40%;
+            }
+            .sp_icon{
+                width: 40%;
             }
         }
         }
@@ -66,7 +72,7 @@ header{
                 }
         }
         /**スマートフォン**/
-        @media (min-width: 550px) {
+        @media (min-width: 551px) {
             .sp{
                 display: none;
             }
@@ -99,7 +105,7 @@ header{
 #main{
     width: 740px;
     float: left;
-    @media (min-width: 550px) {
+    @media (min-width: 551px) {
         .title_sp{
             display: none;
         }
@@ -142,6 +148,7 @@ header{
                 @media (max-width: 550px) {
                     width: 48%;
                     margin: 2px auto;
+                    margin-left: 1%;
                 }
                 img{
                     max-width: 100%;
@@ -294,6 +301,7 @@ header{
                 @media (max-width: 550px) {
                     width: 100%;
                     clear: both;
+                    text-align: center;
                 }
                 img {
                 width: 380px;
@@ -323,7 +331,8 @@ header{
                     width: 70px;
                     cursor: pointer;
                     @media (max-width: 550px) {
-                        width: 49px;
+                        max-width: 100%;
+                        width: 50px;
                     }
                 }
             }
@@ -390,7 +399,7 @@ header{
                     text-align: center;
                     display: block;
                     margin: 0 auto;
-                    @media (min-width: 550px) {
+                    @media (min-width: 551px) {
                         display: none;
                     }
                 }
@@ -461,7 +470,7 @@ header{
                 top: 15px;  
                 left: 160px;  
                 @media (max-width: 550px) {
-                    left: 230px;
+                    left: 78%;
                 }
             }  
         }
@@ -482,14 +491,14 @@ header{
             position:relative;
                 left: 110px;
             @media (max-width: 550px) {
-                left: 185px;
+                left: 61%;
             }
         }
         .down{
                 position:relative;
                 left: 95px;
                 @media (max-width: 550px) {
-                left: 170px;
+                left: 56%;
                 }
         }
     }
@@ -515,7 +524,7 @@ header{
                 left: 200px;
                 bottom: 20px;
                 @media (max-width: 550px) {
-                    left: 275px;
+                    left: 90%;
                 }
             }
         }
@@ -531,7 +540,7 @@ header{
                 .morebtn{
                     display: block;
                     position:relative;
-                    left: 170px;
+                    left: 60%;
                     bottom: 20px;
                 }
             }

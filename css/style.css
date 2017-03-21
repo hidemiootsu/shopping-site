@@ -17,12 +17,16 @@ body {
     /**パソコン**/ }
     #wrapper header #header_in h1 img {
       width: 150px; }
-    @media (min-width: 550px) {
+    @media (min-width: 551px) {
       #wrapper header #header_in h1 .logo_sp {
         display: none; } }
     @media (max-width: 550px) {
       #wrapper header #header_in h1 .logo_pc {
-        display: none; } }
+        display: none; }
+      #wrapper header #header_in h1 .logo_sp {
+        width: 40%; }
+      #wrapper header #header_in h1 .sp_icon {
+        width: 40%; } }
     @media (max-width: 550px) {
       #wrapper header #header_in .pc {
         display: none; }
@@ -45,7 +49,7 @@ body {
           border-bottom: 1px solid #fff;
           width: 90%;
           text-align: center; } }
-    @media (min-width: 550px) {
+    @media (min-width: 551px) {
       #wrapper header #header_in .sp {
         display: none; }
       #wrapper header #header_in .pc {
@@ -71,7 +75,7 @@ body {
     /**index**/
     /**list**/
     /**products**/ }
-    @media (min-width: 550px) {
+    @media (min-width: 551px) {
       #wrapper #main .title_sp {
         display: none; } }
     @media (max-width: 550px) {
@@ -107,7 +111,8 @@ body {
           @media (max-width: 550px) {
             #wrapper #main #new_items .flex-container .new_container, #wrapper #main #new_items .flex-container .popu_container, #wrapper #main #popular .flex-container .new_container, #wrapper #main #popular .flex-container .popu_container {
               width: 48%;
-              margin: 2px auto; } }
+              margin: 2px auto;
+              margin-left: 1%; } }
           #wrapper #main #new_items .flex-container .new_container img, #wrapper #main #new_items .flex-container .popu_container img, #wrapper #main #popular .flex-container .new_container img, #wrapper #main #popular .flex-container .popu_container img {
             max-width: 100%;
             padding: 7px 5px 0; }
@@ -231,7 +236,8 @@ body {
           @media (max-width: 550px) {
             #wrapper #main #syouhin .syouhin_box .display_img {
               width: 100%;
-              clear: both; } }
+              clear: both;
+              text-align: center; } }
           #wrapper #main #syouhin .syouhin_box .display_img img {
             width: 380px; }
             @media (max-width: 550px) {
@@ -256,7 +262,8 @@ body {
               cursor: pointer; }
               @media (max-width: 550px) {
                 #wrapper #main #syouhin .syouhin_box .pro_img li img {
-                  width: 49px; } }
+                  max-width: 100%;
+                  width: 50px; } }
         #wrapper #main #syouhin .syouhin_box table {
           width: 550px;
           height: 80px;
@@ -307,7 +314,7 @@ body {
           text-align: center;
           display: block;
           margin: 0 auto; }
-          @media (min-width: 550px) {
+          @media (min-width: 551px) {
             #wrapper #main #syouhin .syouhin_box .add_cart_sp {
               display: none; } }
         #wrapper #main #syouhin .syouhin_box .description {
@@ -366,7 +373,7 @@ body {
           left: 160px; }
           @media (max-width: 550px) {
             #wrapper #slidebar #search #searchform2 #searchBtn2 {
-              left: 230px; } }
+              left: 78%; } }
     #wrapper #slidebar .subtitle {
       height: 40px;
       background: #887f69;
@@ -383,13 +390,13 @@ body {
         left: 110px; }
         @media (max-width: 550px) {
           #wrapper #slidebar .subtitle .next {
-            left: 185px; } }
+            left: 61%; } }
       #wrapper #slidebar .subtitle .down {
         position: relative;
         left: 95px; }
         @media (max-width: 550px) {
           #wrapper #slidebar .subtitle .down {
-            left: 170px; } }
+            left: 56%; } }
     #wrapper #slidebar #categories .catebox {
       height: 40px;
       background: #fff;
@@ -411,7 +418,7 @@ body {
         bottom: 20px; }
         @media (max-width: 550px) {
           #wrapper #slidebar #categories .catebox .nextgray {
-            left: 275px; } }
+            left: 90%; } }
     #wrapper #slidebar #about .info, #wrapper #slidebar #shopinfo .info {
       background: #fff;
       text-align: center; }
@@ -423,7 +430,7 @@ body {
           #wrapper #slidebar #about .info .morebtn, #wrapper #slidebar #shopinfo .info .morebtn {
             display: block;
             position: relative;
-            left: 170px;
+            left: 60%;
             bottom: 20px; } }
       #wrapper #slidebar #about .info p, #wrapper #slidebar #shopinfo .info p {
         font-size: 0.8em;
